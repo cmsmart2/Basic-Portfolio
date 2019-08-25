@@ -1,0 +1,54 @@
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-style: solid;
+    padding: 40px;
+    margin-bottom: 20px;
+    
+}
+body {
+    background: url(./images/white_carbon.png);
+}
+h1{
+    position:fixed;
+    top: 0;
+    left: 40px;
+    font-size: 30px;
+    background-color: #4aaaa5;
+    float:left;
+    clear: both;
+    width: 200px;
+    height: 50px;
+    color: #eeeeee;
+    text-align: center;
+    font-family:'Georgia', Times, Times New Roman, serif;
+}
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5
+}
+.about_me{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-width: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    border: 20px;
+    margin: auto;
+    width: 960px;
+}
+#links{
+    float: right;
+}
+#profile_pic {
+    height: 200px;
+    width: 200px;
+
+}
+footer {
+    padding: 20px;
+    clear: both;
+    background: #666666;
+    text-align: center;
+  }
