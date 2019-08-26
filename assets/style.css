@@ -23,32 +23,43 @@ h1{
     text-align: center;
     font-family:'Georgia', Times, Times New Roman, serif;
 }
+#links{
+    float: right;
+}
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5
+    color: #4aaaa5;
+    float: left;
+    padding: 20px;
+
 }
 .about_me{
     background-color: #ffffff;
     border-color: #dddddd;
     border-width: 40px;
-    box-sizing: border-box;
     text-align: center;
     padding: 20px;
     border: 20px;
     margin: auto;
     width: 960px;
 }
-#links{
-    float: right;
-}
+
 #profile_pic {
     height: 200px;
     width: 200px;
+    padding: 20px;
+    float: left;
+    clear: left;
 
 }
+.clearfix::after { 
+    content: ""; 
+    display: block; 
+    clear: both;
+ }
 footer {
     padding: 20px;
-    clear: both;
     background: #666666;
     text-align: center;
+    clear: both;
   }
