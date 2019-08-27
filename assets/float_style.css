@@ -1,0 +1,44 @@
+#links{
+    float: right;
+}
+#h2_index {
+    float: left;
+}
+#profile_pic {
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    float: left;
+    clear: left;
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  #abstract { 
+    float: left;
+    width: 33.33%; 
+    padding: 5px;
+  }
+ #animals {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+ } 
+ #city {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+ }
+ #food {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+ }
+ #nature {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+ }
