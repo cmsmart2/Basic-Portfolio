@@ -9,23 +9,30 @@ header {
 #links {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-right: 2px;
 }
+a:visited {
+    color: #777777;
+}
+a:link {
+    text-decoration: none;
+  }
 body {
     background: url(./images/white_carbon.png);
 }
 h1{
     position:absolute;
     top: 0;
-    left: 70px;
+    left: 50px;
     font-size: 30px;
     background-color: #4aaaa5;
-    float:left;
     clear: both;
     width: 200px;
-    height: 50px;
+    height: 60px;
     color: #eeeeee;
     text-align: center;
     font-family:'Georgia', Times, 'Times New Roman', serif;
+    
 }
 h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -43,11 +50,12 @@ h2 {
     background-color: #ffffff;
     border-color: #dddddd;
     border-width: 40px;
-    text-align: center;
     padding: 20px;
     border: 20px;
     margin: auto;
     width: 960px;
+    overflow:auto;
+    line-height: 30px;
 }
 footer {
     padding: 20px;
@@ -58,9 +66,7 @@ footer {
     border-top: 5px solid #4aaaa5;
     
   }
-  a:link {
-    text-decoration: none;
-  }
+
   input[type=text] {
     width: 100%;
     padding: 12px 20px;
@@ -76,4 +82,7 @@ footer {
     margin: 4px 2px;
     cursor: pointer;
 
+  }
+  #message {
+      height: 150px;
   }
