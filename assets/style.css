@@ -4,6 +4,7 @@ header {
     border-style: solid;
     padding: 40px;
     margin-bottom: 20px;
+    margin: 0 auto;
     
 }
 #links {
@@ -52,7 +53,7 @@ h2 {
     border-width: 40px;
     padding: 20px;
     border: 20px;
-    margin: auto;
+    margin: 80px auto;
     width: 960px;
     overflow:auto;
     line-height: 30px;
@@ -64,6 +65,8 @@ footer {
     clear: both;
     margin-top: 20px;
     border-top: 5px solid #4aaaa5;
+    margin: 0 auto;
+    
     
   }
 
