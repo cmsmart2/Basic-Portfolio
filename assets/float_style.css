@@ -1,5 +1,5 @@
 #links{
-    float: right;
+float: right;
 }
 #h2_index {
     float: left;
@@ -10,7 +10,6 @@
     padding: 20px;
     float: left;
     clear: left;
-
 }
 .images {
   float: left;
@@ -21,11 +20,13 @@
 }
 .port_links {
   position: absolute;
-  background-color: aqua;
+  background-color:#4aaaa5;
   width: 300px;
   text-align: center;
   bottom: 10px;
   padding: 10px 0;
+  color: #eeeeee;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 .portfolio_images {
   width: 300px;
